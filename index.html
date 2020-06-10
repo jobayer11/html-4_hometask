@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HTML_CLASS-4 || Task</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<h1>Class task</h1>
+		<p><u>block level element:</u></p>
+		<div class="div1"></div>
+		<div class="div2"></div>
+		<p><u>inline element</u></p> <br>
+		<img src="image/spring-colorful.jpg" width="100">
+		<img src="image/bloom-blooming.jpg" width="200">
+		<p><u>inline-block element:</u></p>
+		<div class="div3"></div>
+		<div class="div4"></div>
+		<br><br>
+		<table>
+			<caption>practice 50 elements of html</caption>
+			<tbody>
+				<tr>
+					<th>No.</th>
+					<th>Tag</th>
+					<th>Description</th>
+					<th>Example</th>
+				</tr>
+				<tr>
+					<td>51</td>
+					<td>&#60;kbd&#62; </td>
+					<td>Defines keyboard output</td>
+					<td>
+						<p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text from windows.</p>
+						<p>Press <kbd>Cmd</kbd> + <kbd>C</kbd> to copy text from mac os.</p>
+					</td>
+				</tr>
+				<tr>
+					<td>52</td>
+					<td>&#60;lable&#62;</td>
+					<td>Defines a lable for an &#60;input&#62; element</td>
+					<td><p>click on one of the text lable to toggle the related radio button</p>
+						<form action="#" method="get" enctype="multipart/form-data"></form>
+						<label for="male">Male</label>
+						<input type="radio" name="gender" id="male" class="male" value="male"><br>
+						<label for="female">Female</label>
+						<input type="radio" name="gender" id="female" class="female" value="female"><br>
+						<label for="other">Other</label>
+						<input type="radio" name="gender" id="other" class="other" value="other"><br>
+					</td>
+				</tr>
+				<tr>
+					<td>53</td>
+					<td>&#60;legend&#62;</td>
+					<td>Defines a caption for a &#60;fieldset&#62; element.</td>
+					<td>
+						<form action="#" method="get" enctype="multipart/form-data">
+							<fieldset>
+								<legend>This is legend element</legend>
+								<label for="fname">First name:</label>
+								<input type="text" name="fname" id="fname" class="fname"><br><br>
+								<label for="lname">Last name:</label>
+								<input type="text" name="lname" id="lname" class="lname"><br><br>
+								<label for="email">Email:</label>
+								<input type="email" name="email" id="email" class="email"><br><br>
+								<label for="birthday">Birthday:</label>
+								<input type="date" name="birthday" id="birthday" class="birthday"><br><br>
+								<button type="submit">Submit</button>
+							</fieldset>
+						</form>
+					</td>
+				</tr>
+				<tr>
+					<td>54</td>
+					<td>&#60;li&#62;</td>
+					<td>Defines a list item</td>
+					<td>
+						<p>The ol element defines an ordered list:</p>
+						<ol>
+							<li>Coffee</li>
+							<li>Tea</li>
+							<li>Milk</li>
+						</ol>
+
+						<p>The ul element defines an unordered list:</p>
+						<ul>
+							<li>Coffee</li>
+							<li>Tea</li>
+							<li>Milk</li>
+						</ul>
+						<p><strong>Note:</strong>those list items are written by &#60;li&#62; element</p>
+					</td>
+				</tr>
+				<tr>
+					<td>55</td>
+					<td>&#60;link&#62;</td>
+					<td>Defines the relationship between a docoment and an external resource(most used to link to style sheets)</td>
+					<td>&#60;link rel="stylesheet" href="style.css"&#62;
+						<p><strong>Note:</strong>That can't be seen here so I just wrote the code</p>
+					</td>
+				</tr>
+				<tr>
+					<td>56</td>
+					<td>&#60;main&#62;</td>
+					<td>Specify the main content of the document
+					<p><strong>Note:</strong> There must not be more than one &#60;main&#62; element in a document. The &#60;main&#62; element must not be a descendant of &#60;article&#62;, &#60;aside&#62;, &#60;footer&#62;, &#60;header&#62; or &#60;nav&#62; element. </p>
+					</td>
+					<td>
+						<main>
+							<p>this paragraph is written main main element</p>
+						</main>
+					</td>
+				</tr>
+				<tr>
+					<td>57</td>
+					<td>&#60;map&#62;</td>
+					<td>defines an image-map</td>
+					<td>
+						<p>Click on the face to goto the facebook</p>
+						<img src="image/pic_own.jpg" alt="pic_own" width="200" usemap="#pic_own">
+						<map name="pic_own">
+							<area shape="circle" coords="100,50,30" href="https://www.facebook.com/jobayerhossain4">
+						</map>
+					</td>
+				</tr>
+				<tr>
+					<td>58</td>
+					<td>&#60;mark&#62;</td>
+					<td>defines marked/highlited text</td>
+					<td><p>Don't forget to buy <mark>chocolate</mark> today.</p></td>
+				</tr>
+				<tr>
+					<td>59</td>
+					<td>&#60;meta&#62;</td>
+					<td>defines meta data about an HTML document
+						<p><strong>Note:</strong> All meta information goes in the head section</p>
+					</td>
+					<td>
+						<br>
+						&#60;head&#62;<br>
+							&nbsp;&nbsp;&#60;meta charset="utf-8"&#62;<br>
+							&nbsp;&nbsp;&#60;meta name="description" content="Free web tutorials"&#62;<br>
+							&nbsp;&nbsp;&#60;meta name="keywords" content="HTML,CSS,XML,Javascript"&#62;<br>
+							&nbsp;&nbsp;&#60;meta name="author" content="John Doe"&#62;<br>
+							&nbsp;&nbsp;&#60;meta name="viewport" content="width=device-width, initial-scale=1.0"&#62;<br>
+							&#60;/head&#62;
+							<br><br>
+					</td>
+				</tr>
+				<tr>
+					<td>60</td>
+					<td>&#60;meter&#62;</td>
+					<td>defines a scalar measurement within a known range(a gauge)</td>
+					<td>
+						<p>The meter element is used to display a gauge:</p>
+						<label for="disc_c">Disk usage C:</label>
+						<meter id="disc_c" min="0" max="10" value="2">2 out of 10</meter><br>
+						<label for="disk_d">Disk usage D:</label>
+						<meter id="disk_d" value="0.4">40%</meter>
+						<p><strong>Note:</strong>This meter tag is not supported in Edge 12()</p>
+					</td>
+				</tr>
+				<tr>
+					<td>61</td>
+					<td>&#60;nav&#62;</td>
+					<td>defines a nav links</td>
+					<td>
+						<p>The nav element defines a set of navigation links</p>
+						<a href="#">HTML</a> |
+						<a href="#">CSS</a> |
+						<a href="#">JavaScript</a> |
+						<a href="#">Python</a> |
+						<br><br>
+					</td>
+				</tr>
+				<tr>
+					<td>62</td>
+					<td>&#60;nosscript&#62;</td>
+					<td>defines an alternate content for users that do not support client-side scripts</td>
+					<td>
+						<p>A browser with JavaScript disabled will show the text <br> inside the noscript element("Hello World!" will not be displayed.)</p><br>
+						<script>
+							document.write("Hello World!")
+						</script>
+						<noscript>Sorry, your browser does not JavaScript</noscript><br><br>
+					</td>
+				</tr>
+				<tr>
+					<td>63</td>
+					<td>&#60;object&#62;</td>
+					<td>defines a container for an external application</td>
+					<td>
+						<p>object element with image</p>
+						<object data="image/pic_own.jpg" width="200"></object>
+					</td>
+				</tr>
+				<tr>
+					<td>64</td>
+					<td>&#60;ol&#62;</td>
+					<td>defines an ordered list
+						<p><strong>Tip:</strong> Use CSS to style list</p>
+					</td>
+					<td>
+						<ol>
+							<li>Coffee</li>
+							<li>Tea</li>
+							<li>Milk</li>
+						</ol>
+
+						<ol start="50">
+							<li>Coffee</li>
+							<li>Tea</li>
+							<li>Milk</li>
+						</ol>
+					</td>
+				</tr>
+				<tr>
+					<td>65</td>
+					<td>&#60;optgroup&#62;</td>
+					<td>defines a group a group of related options in a drop-down list.</td>
+					<td>
+						<p>The optgroup element is used to group related options in a drop-down list</p>
+						<form action="#" method="get" enctype="multipart/form-data">
+							<label for="cars">Choose a car:</label>
+								<select name="cars" id="cars">
+									<optgroup label="Swedish Cars">
+										<option value="volvo">Volvo</option>
+										<option value="saab">Saab</option>
+									</optgroup>
+									<optgroup label="German Cars">
+										<option value="mercedes">Mercedes</option>
+										<option value="audi">Audi</option>
+									</optgroup>
+								</select>
+								<br><br>
+								<button type="submit">Submit</button>
+						</form><br><br>
+					</td>
+				</tr>
+				<tr>
+					<td>66</td>
+					<td>&#60;option&#62;</td>
+					<td>defines an option in a drop-down list</td>
+					<td>
+						<br><br>
+						<label for="cars">Choose a car:</label>
+						<select name="cars" id="cars">
+							<option value="volvo">Volvo</option>
+							<option value="saab">Saab</option>
+							<option value="opel">Opel</option>
+							<option value="audi">Audi</option>
+						</select>
+						<br><br>
+					</td>
+				</tr>
+				<tr>
+					<td>67</td>
+					<td>&#60;output&#62;</td>
+					<td>defines the result of a calculation</td>
+					<td>
+						<br><br>
+						<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+							<input type="number" name="number" id="a">
+							+<input type="number" name="number" id="b">
+							=<output name="x" for="a b"></output>
+						</form>
+						<br><br>
+					</td>
+				</tr>
+				<tr>
+					<td>68</td>
+					<td>&#60;p&#62;</td>
+					<td>defines a paragraph</td>
+					<td>
+						<p>this is a paragraph</p>
+					</td>
+				</tr>
+				<tr>
+					<td>69</td>
+					<td>&#60;param&#62;</td>
+					<td>defines a parameter of an object</td>
+					<td>
+						<object data="audio/amar_shonar_bangla.ogg">
+							<param name="autoplay" value="true">
+						</object>
+					</td>
+				</tr>
+				<tr>
+					<td>70</td>
+					<td>&#60;picture&#62;</td>
+					<td>defines a container for multiple image resources</td>
+					<td>
+						<picture>
+							<p>resize the browser to see the all images</p>
+							<source media="(min-width:1100px)" srcset="image/bloom-blooming.jpg" width="200">
+							<source media="(min-width:850px)" srcset="image/spring-colorful.jpg" width="200">
+							<img src="image/yellow-sunflower.jpg" alt="yellow-sunflower" width="200" width="200">
+						</picture>
+					</td>
+				</tr>
+				<tr>
+					<td>71</td>
+					<td>&#60;pre&#62;</td>
+					<td>defines preformatted text</td>
+					<td>
+						<pre>
+this     is   a   preformated
+text.
+						</pre>
+					</td>
+				</tr>
+				<tr>
+					<td>72</td>
+					<td>&#60;progress&#62;</td>
+					<td>represent the progress of a task</td>
+					<td>
+						<br><br>
+						<label for="file">Downloading progress:</label>
+						<progress value="35" max="100" id="file">32%</progress>
+						<br><br>
+					</td>
+				</tr>
+				<tr>
+					<td>73</td>
+					<td>&#60;q&#62;</td>
+					<td>defines a short quotation</td>
+					<td>
+						<p>
+							WWF's goal is to:
+							<q>Build a future where people live in harmony with nature</q>
+							We hope they succeed.
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td>74</td>
+					<td>&#60;rp&#62;</td>
+					<td>defines what to show in browsers that do not ruby annotations.</td>
+					<td>
+						<ruby>
+							漢 <rt>
+									<rp>
+										(</rp>ㄏㄢˋ<rp>)
+									</rp>
+								</rt>
+						</ruby>
+					</td>
+				</tr>
+				<tr>
+					<td>75</td>
+					<td>&#60;rt&#62;</td>
+					<td>defines an explanation/pronuncation of characters (for East Asian typography)</td>
+					<td>
+						<ruby>
+ 							漢 <rt> ㄏㄢˋ </rt>
+						</ruby>
+					</td>
+				</tr>
+				<tr>
+					<td>76</td>
+					<td>&#60;ruby&#62;</td>
+					<td>difines a ruby annotation(for East Asian typography)</td>
+					<td>
+						<ruby>
+ 							漢 <rt> ㄏㄢˋ </rt>
+						</ruby>
+					</td>
+				</tr>
+				<tr>
+					<td>77</td>
+					<td>&#60;s&#62;</td>
+					<td>defines text that is no longer correct
+						<p>
+							<strong>Note:</strong>The &#60;s&#62; tag should not be used to define deleted text in a document, use the &#60;del&#62; tag for that.
+						</p>
+					</td>
+					<td>
+						<p><s>Only 50 tickets left!</s></p>
+						<p>SOLD OUT!</p>
+					</td>
+				</tr>
+				<tr>
+					<td>78</td>
+					<td>&#60;samp&#62;</td>
+					<td>defines sample output from a computer program.</td>
+					<td>
+						<p>Message from my computer.</p>
+						<p><samp>File not found. <br> press F1 to continue</samp></p>
+					</td>
+				</tr>
+				<tr>
+					<td>79</td>
+					<td>&#60;script&#62;</td>
+					<td>defines a client-side script.</td>
+					<td>
+						<p id="demo"></p>
+
+						<script>
+							document.getElementById("demo").innerHTML = "Hello Javascript!";
+						</script>
+					</td>
+				</tr>
+				<tr>
+					<td>80</td>
+					<td>&#60;section&#62;</td>
+					<td>defines a section in a document</td>
+					<td>
+						<section>
+							<p>This is section 1</p>
+						</section>
+						<section>
+							<p>This is section 2</p>
+						</section>
+					</td>
+				</tr>
+				<tr>
+					<td>81</td>
+					<td>&#60;select&#62;</td>
+					<td>defines a drop-down list</td>
+					<td>
+						<br>
+						<label for="cars">Choose a car:</label>
+						<select name="cars" id="cars">
+							<option value="volvo">Volvo</option>
+							<option value="saab">Saab</option>
+							<option value="mercedes">Mercedes</option>
+							<option value="audi">Audi</option>
+						</select>
+						<br><br>
+					</td>
+				</tr>
+				<tr>
+					<td>82</td>
+					<td>&#60;small&#62;</td>
+					<td>defines a smaller text
+						<p><strong>Tip:</strong>This tag is not deprecated, but it is possible to achieve richer(or the same) effect with css</p>
+					</td>
+					<td>
+						<p>this is a normal text.</p>
+						<p><small>This is a small text.</small></p>
+					</td>
+				</tr>
+				<tr>
+					<td>83</td>
+					<td>&#60;source&#62;</td>
+					<td>defines multiple media resources for media elements(&#60;video&#62; and &#60;audio&#62;)
+					</td>
+					<td>
+						<audio controls>
+							<source src="audio/amar_shonar_bangla.ogg" type="audio/ogg">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+				</tr>
+				<tr>
+					<td>84</td>
+					<td>&#60;span&#62;</td>
+					<td>defines a section in a document</td>
+					<td>
+						<p>I <span style="color: red; font-weight: bold;">love</span> my mother.</p>
+					</td>
+				</tr>
+				<tr>
+					<td>85</td>
+					<td>&#60;strong&#62;</td>
+					<td>defines important text</td>
+					<td>
+						<p><strong>This text is important!</strong></p>
+					</td>
+				</tr>
+				<tr>
+					<td>86</td>
+					<td>&#60;style&#62;</td>
+					<td>defines style information for a document.</td>
+					<td>
+						<head>
+							<style>
+								.heading_86{
+									color: red;
+								}
+								.para_86{
+									color: blue;
+								}
+							</style>
+						</head>
+						<body>
+							<h3 class="heading_86">This is a heading</h3>
+							<p class="para_86">This is a paragraph</p>
+						</body>
+					</td>
+				</tr>
+				<tr>
+					<td>87</td>
+					<td>&#60;sub&#62;</td>
+					<td>defines a subscripted text.</td>
+					<td>
+						<p>This text contains <sub>subscript</sub> text.</p>
+					</td>
+				</tr>
+				<tr>
+					<td>88</td>
+					<td>&#60;summary&#62;</td>
+					<td>defines a visible heading for a &#60;details&#62; element.</td>
+					<td>
+						<details>
+							<summary>Lorem ipsum</summary>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ullamcorper facilisis est. Donec mollis urna nisl, lobortis semperturpis porta quis. Sed et lacus porttitor, posuere augue at, porttitor mi. Praesent iaculis sapien a ante faucibus tincidunt ac eu leo. Proin in arcu eu lacus consequat egestas vel at nisl.
+							</p>
+						</details>
+					</td>
+				</tr>
+				<tr>
+					<td>89</td>
+					<td>&#60;sup&#62;</td>
+					<td>defines superscripted text.</td>
+					<td>
+						<p>This text contains <sup>superscript</sup> text.</p>
+					</td>
+				</tr>
+				<tr>
+					<td>90</td>
+					<td>&#60;svg&#62;</td>
+					<td>defines a container for SVG graphics</td>
+					<td>
+						<svg width="100" height="100">
+							<circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow">
+						</svg>
+					</td>
+				</tr>
+				<tr>
+					<td>91</td>
+					<td>&#60;table&#62;</td>
+					<td>defines a table</td>
+					<td>
+						<table>
+							<tr>
+								<th>Month</th>
+								<th>Savings</th>
+							</tr>
+							<tr>
+								<td>January</td>
+								<td>$100</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td>92</td>
+					<td>&#60;tbody&#62;</td>
+					<td>groups the body content in a table</td>
+					<td>
+						<table>
+							<thead>
+								<tr>
+									<th>Month</th>
+									<th>Savings</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>January</td>
+									<td>$100</td>
+								</tr>
+								<tr>
+									<td>February</td>
+									<td>$80</td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<td>Sum</td>
+									<td>$180</td>
+								</tr>
+							</tfoot>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td>93</td>
+					<td>&#60;td&#62;</td>
+					<td>defines a cell in a table</td>
+					<td>
+						<table>
+							<tr>
+								<td>Cell A</td>
+								<td>Cell B</td>
+							</tr>
+							<tr>
+								<td>Cell C</td>
+								<td>Cell D</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td>94</td>
+					<td>&#60;container&#62;</td>
+					<td>defines a container for content that should be hidden when the page loads</td>
+					<td>
+						<p>Click the button to show the image</p>
+						<button onclick="showContent()">Show hidden content</button>
+						<template>
+							<h2>Flower</h2>
+							<img src="image/spring-colorful.jpg" width="200">
+						</template>
+						<script>
+							function showContent(){
+								var temp = document.getElementsByTagName('template')[0];
+								var clon = temp.content.cloneNode(true);
+								document.body.appendChild(clon);
+							}
+						</script>
+					</td>
+				</tr>
+				<tr>
+					<td>95</td>
+					<td>&#60;textarea&#62;</td>
+					<td>defines a multiline input control (text area)</td>
+					<td>
+						<br><br>
+						<form action="#" method="get" enctype="miltipart/form-data">
+							<label for="comment">write your comment here:</label><br>
+							<textarea id="comment" name="comment" rows="4" cols="50" placeholder="write here....."></textarea>
+							<br><br>
+							<button type="submit">Submit</button>
+						</form>
+					</td>
+				</tr>
+				<tr>
+					<td>96</td>
+					<td>&#60;tfoot&#62;</td>
+					<td>groups the footer content in a table</td>
+					<td>
+						<table>
+							<thead>
+								<tr>
+									<th>Month</th>
+									<th>Savings</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>January</td>
+									<td>$50</td>
+								</tr>
+								<tr>
+									<td>February</td>
+									<td>$50</td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<td>Sum</td>
+									<td>$100</td>
+								</tr>
+							</tfoot>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td>97</td>
+					<td>&#60;th&#62;</td>
+					<td>defines a header cell in a table</td>
+					<td>
+						<table>
+							<thead>
+								<th>
+									month
+								</th>
+								<th>
+									savings
+								</th>
+							</thead>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td>98</td>
+					<td>&#60;thead&#62;</td>
+					<td>groups the header content in a table</td>
+					<td>
+						<table>
+							<thead>
+								<th>
+									month
+								</th>
+								<th>
+									savings
+								</th>
+							</thead>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td>99</td>
+					<td>&#60;time&#62;</td>
+					<td>defines a specific time (or datetime)
+						<p><strong>note:</strong> The time element not render as anything special in any of the major browsers</p></td>
+					<td>
+						<p>Open from <time>10:00</time> to <time>21:00</time> every weekday.</p>
+						<p>I have a date on <time datetime="2021-02-14 20:00">Valentine day</time>.</p>
+					</td>
+				</tr>
+				<tr>
+					<td>100</td>
+					<td>&#60;title&#62;</td>
+					<td>defines a title for the document</td>
+					<td>
+						&#60;head&#62;<br>
+						&nbsp;&nbsp;&nbsp;&#60;title&#62;text here&#60;/title&#62;<br>
+						&#60;/head&#62;
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>

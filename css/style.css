@@ -1,0 +1,40 @@
+.wrapper{
+
+}
+.div1{
+	width: 100px;
+	height: 100px;
+	background: red;
+	margin-bottom: 20px;
+}
+.div2{
+	width: 100px;
+	height: 100px;
+	background: green;
+}
+.div3{
+	width: 100px;
+	height: 100px;
+	background: olive;
+	display: inline-block;
+}
+.div4{
+	width: 100px;
+	height: 100px;
+	background: teal;
+	display: inline-block;
+}
+table{
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+caption{
+	font-weight: bold;
+	font-size: 30px;
+}
+th,td{
+	border: 2px solid black;
+}
+span{
+	font-weight: bold;
+}
